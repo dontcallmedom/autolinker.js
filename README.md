@@ -2,10 +2,10 @@ This JavaScript library provides a tool to automatically turn `http`/`https`/`ft
 
 Inspired from [autolink-js](https://github.com/bryanwoods/autolink-js) and [Autolinker.js](https://github.com/gregjacobs/Autolinker.js), it has the following distinct features from these 2 projects:
 
-* it creates link with proper DOM calls and without string manipulations (via `innerHTML`, ensuring reduced risks of introducing XSS
+* it creates link with proper DOM calls and without string manipulations (via `innerHTML`), ensuring reduced risks of introducing XSS
 * it avoids turning urls in `textarea` into links (which would add spurious markup in the textarea values)
 
-It does not try to handle scheme-less URLs (e.g. `example.com` or `www.example.com` won't be turned itno links). It lets set any attributes on the resulting link.
+It does not try to handle scheme-less URLs (e.g. `example.com` or `www.example.com` won't be turned into links). It lets set any attributes on the resulting link.
 
 ## Basic Usage
 Assuming the following HTML
